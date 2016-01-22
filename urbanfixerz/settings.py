@@ -42,6 +42,7 @@ INSTALLED_APPS = (
     'category',
     'jobs',
     'customer',
+    'userprofile',
     'rest_framework',
 )
 

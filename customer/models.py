@@ -13,7 +13,8 @@ class Customer(models.Model):
 	pincode=models.IntegerField(default='288412')
 #	CustomerImage=models.ImageField()
 
-
+	def __str__(self):
+		return self.fname +' '+ self.lname
 
 
 # Create your models here.

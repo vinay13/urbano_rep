@@ -22,6 +22,7 @@ urlpatterns = [
     url(r'^vendor/',include('vendor.urls')),
     url(r'^category/',include('category.urls')),
     url(r'^jobs/',include('jobs.urls')),
+    url(r'^userprofile/',include('userprofile.urls')),
     url(r'^customer/',include('customer.urls')),
     url(r'^admin/',include(admin.site.urls)),
 ]
